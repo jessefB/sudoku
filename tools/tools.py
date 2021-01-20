@@ -26,10 +26,7 @@ def printBoard(board):
          else:
             print(" ", end='')
          # Print the values
-         if not board.readOnly(board, row, col) and board.board[row][col] != ' ':
-            print('\033[94m' + cVal + '\033[0m', end='')
-         else:
-            print(cVal, end='')
+         print(cVal, end='')
       print("")
 
 # Quit command
@@ -42,7 +39,7 @@ def saveGame(filename, board):
       overWrite = True
 
    # Write the original file
-   if overWrite == True:
+   if overWrite:
       file = open(filename, "w")
       for row in board:
          for col in row:
