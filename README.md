@@ -6,7 +6,7 @@ A Sudoku board is read from a file, then displayed in a "board" format, with cha
 
 This was wholly a learning project - I already had a working Sudoku program written in C++, so this was just an attempt to become more familiar with the Python language.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Demo Video](https://youtu.be/f4fU27zWM1w)
 
 # Development Environment
 
